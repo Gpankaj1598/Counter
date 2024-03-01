@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body,html{
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    background-color: #f5eff0;
+}
+
+h2{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 40px;
+ color: lightslategray;
+}
+
+.contanier{
+    width: 600px;
+    height: 350px;
+    margin-top: -150px;
+    background-color: lightcyan;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgb(183, 186, 192, 180);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.contanier .name{
+    margin-top: -5rem;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#counter{
+    padding-top: 1rem;
+    font-size: 5rem;
+}
+
+.prevBtn, .nextBtn{
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
